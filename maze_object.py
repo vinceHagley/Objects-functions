@@ -29,7 +29,7 @@ class Maze:
     #add code to move  avitar
     pass
 
-  def collision(self, object_a,object_b)
+  def collision(self, object_a,object_b):
     return  object_a[0]==object_b[0] and object_a[1]==object_b[1]
 
 def play_game():
@@ -41,4 +41,4 @@ def play_game():
   print("congratulations")
   
 if __name__ == "__main__":
-  play_game(avatar,goal,MAZE)
+  play_game()
