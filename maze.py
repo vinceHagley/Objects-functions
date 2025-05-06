@@ -1,10 +1,10 @@
-″″″ Title:  
+""" Title:  
 Author:  
 Date: 
 Version:  
 Purpose:    
-″″″ 
-avitar = (1,2,'A') #row colum Representation
+""" 
+avatar = (1,2,'A') #row colum Representation
 goal = (1,3,'G') #row colum Representation
 MAZE = [[1,1,1,1,1],[1,0,0,0,1],[1,1,1,1,1]]
 def print_maze(maze,avitar,goal):
@@ -22,12 +22,12 @@ def move(avi,maze):
   #add code to move  avitar
   pass
 
-def play_game(avitar,goal,MAZE):
+def play_game(avatar,goal,MAZE):
   """ main game loop
   """ 
-  while not(avitar[0] == goal[0] and avitar[0] == goal[0]):
+  while not(avatar[0] == goal[0] and avatar[0] == goal[0]):
     pass
   print("congratulations")
   
 if __name__ == "__main__":
-  play_game(avitar,goal,MAZE)
+  play_game(avatar,goal,MAZE)
